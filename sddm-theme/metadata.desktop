@@ -1,5 +1,5 @@
 [SddmGreeterTheme]
-Name=Dark-Breeze
+Name=Breeze
 Description=The sweetest theme around; Dark!
 Author=Marian Arlt
 Copyright=Copyright (C) 2018 Marian Arlt
@@ -12,5 +12,5 @@ MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
 Email=marianarlt@icloud.com
-Theme-Id=sugar-dark
+Theme-Id=Breeze
 Theme-API=2.11
