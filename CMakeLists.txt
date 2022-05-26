@@ -217,7 +217,7 @@ if (INSTALL_SDDM_THEME)
     install(DIRECTORY sddm-theme/ DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/Sugar-Dark PATTERN "README.txt" EXCLUDE PATTERN "components" EXCLUDE PATTERN "dummydata" EXCLUDE
     PATTERN "theme.conf.cmake" EXCLUDE)
     install(FILES ${CMAKE_CURRENT_BINARY_DIR}/sddm-theme/theme.conf DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/Sugar-Dark)
-    install(DIRECTORY lookandfeel/contents/components DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE)
+    install(DIRECTORY lookandfeel/contents/components DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/Sugar-Dark PATTERN "README.txt" EXCLUDE)
 endif()
 
 if (INSTALL_SDDM_WAYLAND_SESSION)
